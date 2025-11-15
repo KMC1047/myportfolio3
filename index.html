@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Website</title>
+
+    <style>
+        
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f6f9;
+            color: #333;
+        }
+        header {
+            background: #2b4c7e;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background: #1e3557;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            color: #ffdd57;
+            transform: scale(1.1);
+        }
+
+        section {
+            padding: 40px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        h2 {
+            color: #2b4c7e;
+            border-left: 5px solid #ffdd57;
+            padding-left: 10px;
+        }
+        .about-img {
+            width: 160px;
+            border-radius: 50%;
+            border: 3px solid #2b4c7e;
+        }
+
+        .skills-list li, .edu-list li {
+            margin: 8px 0;
+        }
+
+        
+        .project-card {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            border: 1px solid #ddd;
+            transition: 0.3s;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        
+        .contact-info div {
+            margin: 10px 0;
+        }
+
+        footer {
+            background: #2b4c7e;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Personal Website</h1>
+    <p>Showcasing My Journey, Skills & Projects</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Me</a>
+    <a href="#skills">Education & Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+    <h2>Home</h2>
+    <p>Hello! I'm a passionate learner and aspiring developer who loves creating useful, clean, and interactive digital experiences. This website highlights my skills, achievements, and the projects I’ve worked on so far.</p>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <img src="https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG.png" class="about-img" alt="Profile Image" />
+    <p>Hi! I'm an enthusiastic individual dedicated to continuous learning and self‑improvement. I enjoy exploring various domains of technology, especially web development, programming, and creative problem‑solving. I believe in building things that make everyday life easier and more enjoyable.</p>
+</section>
+
+<section id="skills">
+    <h2>Education & Skills</h2>
+
+    <h3>Education</h3>
+    <ul class="edu-list">
+        <li>Bachelor of Technology in Computer Science (Pursuing)</li>
+        <li>Completed Higher Secondary Education with strong technical foundation</li>
+    </ul>
+
+    <h3>Technical Skills</h3>
+    <ul class="skills-list">
+        <li>HTML, CSS, JavaScript</li>
+        <li>C Programming & Data Structures</li>
+        <li>Basic Python Programming</li>
+        <li>Database & SQL Fundamentals</li>
+        <li>Responsive Web Design</li>
+    </ul>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+        <h3>1. Personal Portfolio Website</h3>
+        <p>A fully responsive personal website built with HTML and CSS, featuring multiple sections, animations, and working external links.</p>
+    </div>
+
+    <div class="project-card">
+        <h3>2. Student Information Manager (C Language)</h3>
+        <p>A menu‑driven C program that stores, updates, and displays student details using structures and file handling.</p>
+    </div>
+
+    <div class="project-card">
+        <h3>3. Basic Calculator (JavaScript)</h3>
+        <p>A simple web-based calculator capable of performing basic arithmetic operations with a clean UI.</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Information</h2>
+    <div class="contact-info">
+        <div><strong>Email:</strong> yourname@example.com</div>
+        <div><strong>Phone:</strong> +91 9876543210</div>
+        <div><strong>Location:</strong> India</div>
+        <br>
+        <div><strong>External Profiles:</strong></div>
+        <ul>
+            <li><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/" target="_blank">GitHub</a></li>
+            <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+        </ul>
+    </div>
+</section>
+
+<footer>
+    © 2025 My Personal Website | Designed Using HTML & CSS
+</footer>
+
+</body>
+</html>
